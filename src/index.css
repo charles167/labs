@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 97%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 25 95% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 40 25% 94%;
+    --secondary-foreground: 240 10% 3.9%;
+    --muted: 40 25% 94%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 40 25% 94%;
+    --accent-foreground: 240 10% 3.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 25 95% 53%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500;
+}
+
+.glow-effect {
+  @apply shadow-lg shadow-orange-500/30 hover:shadow-xl hover:shadow-orange-500/50 transition-shadow duration-300;
+}
+
+.hero-pattern {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.05) 1px, transparent 0);
+  background-size: 2rem 2rem;
+}
+
+.gradient-bg {
+  background: radial-gradient(ellipse at top, transparent 40%, hsl(var(--background))),
+              radial-gradient(ellipse at bottom, hsl(var(--secondary)) 20%, transparent);
+}
+
+.prose h3 {
+  @apply text-2xl font-bold my-6 text-orange-500;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed;
+}
+
+.prose ul {
+  @apply list-disc list-inside mb-4 pl-4;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.glass-effect {
+  background-color: hsla(var(--background), 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px 0px theme('colors.orange.500 / 0.4');
+  }
+  50% {
+    box-shadow: 0 0 35px 10px theme('colors.orange.500 / 0.2');
+  }
+}
+
+.floating-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.blog-content h2 {
+    @apply text-3xl font-bold mt-12 mb-4 text-foreground;
+}
+.blog-content h3 {
+    @apply text-2xl font-bold mt-8 mb-4 text-foreground;
+}
+.blog-content p {
+    @apply text-lg leading-relaxed mb-6;
+}
+.blog-content a {
+    @apply text-orange-500 hover:underline;
+}
+.blog-content ul {
+    @apply list-disc list-inside space-y-2 mb-6 pl-4;
+}
+.blog-content blockquote {
+    @apply border-l-4 border-orange-500 pl-4 italic text-muted-foreground my-6;
+}
