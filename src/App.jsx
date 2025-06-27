@@ -12,7 +12,7 @@ import { Toaster } from '@/components/ui/toaster';
 import Home from '@/pages/Home';
 import About from '@/pages/About';
 import Services from '@/pages/Services';
-// import Blog from '@/pages/Blog';
+import Blog from '@/pages/Blog';
 // import BlogPost from '@/pages/BlogPost';
 import Contact from '@/pages/Contact';
 import LiveChatWidget from '@/components/LiveChatWidget';
@@ -47,7 +47,7 @@ const router = createBrowserRouter([
       { path: '/', element: <Home /> },
       { path: '/about', element: <About /> },
       { path: '/services', element: <Services /> },
-      // { path: '/blog', element: <Blog /> },
+      { path: '/blog', element: <Blog /> },
       // { path: '/blog/:slug', element: <BlogPost /> },
       { path: '/contact', element: <Contact /> },
     ],

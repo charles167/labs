@@ -271,3 +271,16 @@
 //   // );
 // };
 // export default Blog;
+
+
+import { useEffect } from 'react';
+
+export default function Blog() {
+  useEffect(() => {
+    window.location.href = 'https://blog.strivolabs.com/';
+  }, []);
+
+  return <p>Redirecting to Strivo Blog...</p>;
+}
+
+

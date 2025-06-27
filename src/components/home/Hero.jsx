@@ -38,9 +38,9 @@ const Hero = ({ handleCTAClick }) => {
   return (
    <section
   className="relative py-32 md:py-48 overflow-hidden bg-cover bg-center min-h-[70vh] flex items-center justify-center"
-  style={{
-    // backgroundImage: "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  }}
+  // style={{
+  //   // backgroundImage: "url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  // }}
 >
   <div className="absolute inset-0 bg-black/50 z-0" /> {/* Optional dark overlay for contrast */}
   <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
