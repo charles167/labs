@@ -121,7 +121,7 @@ const Services = () => {
             className="text-center mb-16"
           >
             <div className="inline-flex items-center space-x-2 mb-6">
-              <span className="text-2xl">🔷</span>
+              <span className="text-2xl"></span>
               <span className="text-lg font-semibold text-orange-500">Digital Growth Services</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -173,7 +173,7 @@ const Services = () => {
             className="text-center mb-16"
           >
             <div className="inline-flex items-center space-x-2 mb-6">
-              <span className="text-2xl">🔷</span>
+              <span className="text-2xl"></span>
               <span className="text-lg font-semibold text-orange-500">Tech Talent Sourcing</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
