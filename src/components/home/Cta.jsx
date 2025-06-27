@@ -33,7 +33,7 @@ const Cta = () => {
           >
             <img  
               className="mx-auto rounded-xl shadow-lg max-w-2xl w-full" 
-              alt="High-level business meeting discussing growth strategies" src="/public/Whisk_d548c95a19.jpg" />
+              alt="High-level business meeting discussing growth strategies" src="/Whisk_d548c95a19.jpg" />
           </motion.div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
