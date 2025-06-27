@@ -16,7 +16,8 @@ const OurApproach = () => {
             <img  
               className="rounded-2xl shadow-xl w-full"
               alt="Focused professional working on a growth strategy at a modern desk" 
-              src="blob:https://labs.google/9f070728-7c8b-4fcb-bff7-a633011bcde1" 
+             src="/public/Whisk_2e4ytaxnmu.jpg
+             "
                />
           </motion.div>
           <motion.div
