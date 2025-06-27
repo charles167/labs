@@ -15,7 +15,7 @@ const OurApproach = () => {
           >
             <img  
               className="rounded-2xl shadow-xl w-full"
-              alt="Focused professional working on a growth strategy at a modern desk" 
+              alt="Focused professional working on a growth strategy at a modern desk." 
              src="/public/Whisk_2e4ytaxnmu.jpg
              "
                />
