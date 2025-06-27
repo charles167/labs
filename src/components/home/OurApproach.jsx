@@ -16,7 +16,8 @@ const OurApproach = () => {
             <img  
               className="rounded-2xl shadow-xl w-full"
               alt="Focused professional working on a growth strategy at a modern desk" 
-              src="https://media.istockphoto.com/id/1572460391/photo/happy-group-of-business-people-standing.webp?a=1&b=1&s=612x612&w=0&k=20&c=lTNZ8HeidOTZXr-diJHSw6uOagzRddShIlIUlXbPzlo=" />
+              src="blob:https://labs.google/9f070728-7c8b-4fcb-bff7-a633011bcde1" 
+               />
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 50 }}
