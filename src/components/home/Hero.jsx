@@ -42,7 +42,7 @@ const Hero = ({ handleCTAClick }) => {
   return (
    <section
   className="relative py-32 md:py-48 overflow-hidden bg-cover bg-center min-h-[70vh] flex items-center justify-center"
-  style={{ backgroundImage: "url('public/Whisk_611266db1d.jpg')" }}
+  style={{ backgroundImage: "url('/Whisk_611266db1d.jpg')" }}
 >
 
       <div className="absolute inset-0 bg-black/50 z-0" />
