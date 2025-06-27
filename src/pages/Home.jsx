@@ -3,7 +3,7 @@ import Hero from '@/components/home/Hero';
 import WhyStrivo from '@/components/home/WhyStrivo';
 import OurApproach from '@/components/home/OurApproach';
 import HowWeWork from '@/components/home/HowWeWork';
-import InvestmentGuide from '@/components/home/InvestmentGuide';
+// import InvestmentGuide from '@/components/home/InvestmentGuide';
 import Testimonials from '@/components/home/Testimonials';
 import Cta from '@/components/home/Cta';
 
@@ -14,7 +14,7 @@ const Home = () => {
       <WhyStrivo />
       <OurApproach />
       <HowWeWork />
-      <InvestmentGuide />
+      {/* <InvestmentGuide /> */}
       <Testimonials />
       <Cta />
     </div>

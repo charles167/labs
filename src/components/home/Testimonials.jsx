@@ -7,21 +7,21 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "Strivo Labs transformed our digital presence. Their team is incredibly skilled and delivered beyond our expectations. Our growth has been phenomenal since partnering with them.",
-      name: "Sarah Johnson",
-      title: "CEO, Innovate Inc.",
-      avatar: "https://images.unsplash.com/photo-1670400829835-2ab87c352ada"
+      // name: "Sarah Johnson",
+      // title: "CEO, Innovate Inc.",
+      // avatar: "https://images.unsplash.com/photo-1670400829835-2ab87c352ada"
     },
     {
       quote: "The automation systems they built for us saved us over 20 hours a week. It's been a complete game-changer for our operations. Highly recommend!",
-      name: "Michael Chen",
-      title: "Founder, ScaleUp Co.",
-      avatar: "https://images.unsplash.com/photo-1642257859842-c95f9fa8121d"
+      // name: "Michael Chen",
+      // title: "Founder, ScaleUp Co.",
+      // avatar: "https://images.unsplash.com/photo-1642257859842-c95f9fa8121d"
     },
     {
       quote: "The tech talent they sourced for us was top-notch. We struggled for months to find the right fit, and Strivo Labs delivered in weeks. Their process is seamless.",
-      name: "Jessica Rodriguez",
-      title: "Marketing Director, Visionary Brands",
-      avatar: "https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0"
+      // name: "Jessica Rodriguez",
+      // title: "Marketing Director, Visionary Brands",
+      // avatar: "https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0"
     }
   ];
 
